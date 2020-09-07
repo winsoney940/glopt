@@ -1,0 +1,39 @@
+.delivery {
+    min-height: 620px;
+    padding: 51px 0 57px 0;
+    &__subtitle {
+        margin-top: 17px;
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 360px);
+        grid-template-rows: minmax(345px, auto);
+        margin-top: 37px;
+        justify-content: space-between;
+    }
+    &-item {
+        display: grid;
+        grid-template-columns: 360px;
+        grid-template-rows: 210px minmax(130px, auto);
+        row-gap: 28px;
+        &__title {
+            color: $main-color;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+        &__subtitle {
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            margin-top: 5px;
+            text-align: center;
+        }
+    }
+}

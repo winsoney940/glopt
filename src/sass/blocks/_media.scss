@@ -72,6 +72,15 @@
             gap: 10px;
         }
     }
+    .delivery {
+        &__subtitle {
+            font-size: 16px !important;
+        }
+        &__wrapper {
+            justify-content: center !important;
+            row-gap: 30px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -112,6 +121,21 @@
             grid-template-columns: minmax(250px,auto) !important;
             &__icon {
                 display: none;
+            }
+        }
+    }
+    .delivery {
+        &__wrapper {
+            grid-template-columns: 250px !important;       
+        }
+        &-item {
+            grid-template-columns: 250px !important;
+            grid-template-rows: 140px minmax(130px,auto) !important;
+            &__pic {
+                img {
+                    width: 250px;
+                    object-fit: cover;
+                }
             }
         }
     }

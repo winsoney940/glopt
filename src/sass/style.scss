@@ -14,6 +14,7 @@
     width: 148px;
     height: 1px;
     background-color: $main-color;
+    margin: 0 auto;
     margin-top: 20px;
 }
 
@@ -22,3 +23,4 @@
 @import 'blocks/media';
 @import 'blocks/advantages';
 @import 'blocks/title';
+@import 'blocks/delivery';
