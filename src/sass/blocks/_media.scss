@@ -81,6 +81,11 @@
             row-gap: 30px;
         }
     }
+    .agent {
+        &__descr {
+            font-size: 14px !important;
+        }
+    }
 }
 
 @media (max-width: 768px) {
