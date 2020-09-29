@@ -1,6 +1,6 @@
-.agent {
+.managers {
     min-height: 342px;
-    background: url('../img/bg/agent.jpg') center center/cover no-repeat;
+    background: url('../img/bg/managers.jpg') center center/cover no-repeat;
     &__pic {
         padding-top: 58px;
         display: flex;
@@ -11,16 +11,16 @@
         font-size: 26px;
         font-weight: 700;
         line-height: 23px;
+        padding-top: 20px;
         text-align: center;
-        margin-top: 20px;
     }
     &__descr {
         color: #ffffff;
         font-size: 19px;
         font-weight: 300;
         line-height: 27px;
+        margin-top: 18px;
         text-align: center;
-        margin-top: 22px;
         padding: 0 10px 0 10px;
     }
 }
