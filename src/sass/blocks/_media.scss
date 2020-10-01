@@ -192,4 +192,11 @@
             font-size: 17px !important;
         }
     }
+    .job {
+        &-item {
+            &__icon {
+                display: none !important;
+            }
+        }
+    }
 }
